@@ -1,0 +1,17 @@
+{
+  "local": {
+    "apiBaseUrl": "http://127.0.0.1:8000",
+    "sentryDsn": "",
+    "featureFlags": {}
+  },
+  "staging": {
+    "apiBaseUrl": "https://staging.api.myapp.com",
+    "sentryDsn": "",
+    "featureFlags": { "debugTools": false }
+  },
+  "prod": {
+    "apiBaseUrl": "https://api.myapp.com",
+    "sentryDsn": "https://sentry.io/your-prod-dsn",
+    "featureFlags": { "debugTools": false }
+  }
+}
